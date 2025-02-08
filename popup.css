@@ -1,4 +1,4 @@
-/* popup.css */
+
 body {
     font-family: sans-serif;
     background-color: #f5f5dc;
@@ -10,7 +10,7 @@ body {
     align-items: center; 
     justify-content: center; 
     min-height: 100vh; 
-    width: 300px; 
+    min-width: 300px; 
 }
 
 .main-content,
@@ -158,4 +158,20 @@ label {
 .other_stuff .header img {
     width: 30px;
     height: 30px;
+}
+
+#background_color_picker{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#text_color_picker{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }

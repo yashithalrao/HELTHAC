@@ -10,6 +10,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 sendResponse(response);
             });
         });
-        return true; // Required to allow asynchronous responses
+        return true; 
     }
 });
